@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.outerBox {
+  background-image: url("https://st4.depositphotos.com/2935381/27204/v/450/depositphotos_272041142-stock-illustration-vector-brick-wall-background-neon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(44, 36, 36);
+  border: 2px solid black;
+  height: 60vh;
+  max-width: 100%;
+  width: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navb {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.logout {
   color: white;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.logout:hover {
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(230, 217, 217);
+}
+
+.icon:hover {
+  transform: scale(1.02);
+  color: blue;
+  cursor: pointer;
+}
+
+.form {
+  width: 50%;
+  border: 2px solid black;
+}
+
+.itemList {
+  width: 100%;
+
+  /* background-color: black; */
+}
+
+.notes {
+  max-width: 100%;
+  width: 300px;
+  color: white;
+  background-color: rgb(207, 101, 101);
+  display: inline-block;
+  text-align: center;
+  word-break: break-all;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+.delete,
+.edit,
+.done {
+  font-size: 30px !important;
+  margin-right: 5px !important;
+}
+.delete:hover {
+  transform: scale(1.02);
+  color: red;
+  cursor: pointer;
+}
+
+.edit:hover {
+  transform: scale(1.02);
+  color: yellow;
+  cursor: pointer;
+}
+.done:hover {
+  transform: scale(1.02);
+  color: green;
+  cursor: pointer;
+}
+
+.completed {
+  opacity: 0.3;
 }
