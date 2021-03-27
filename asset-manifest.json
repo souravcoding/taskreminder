@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/taskreminder/static/css/main.ce52d2b0.chunk.css",
+    "main.js": "/taskreminder/static/js/main.1fd049a7.chunk.js",
+    "main.js.map": "/taskreminder/static/js/main.1fd049a7.chunk.js.map",
+    "runtime-main.js": "/taskreminder/static/js/runtime-main.4997b023.js",
+    "runtime-main.js.map": "/taskreminder/static/js/runtime-main.4997b023.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/taskreminder/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fef5cef8.chunk.js": "/taskreminder/static/js/2.fef5cef8.chunk.js",
+    "static/js/2.fef5cef8.chunk.js.map": "/taskreminder/static/js/2.fef5cef8.chunk.js.map",
+    "static/js/3.5ead54eb.chunk.js": "/taskreminder/static/js/3.5ead54eb.chunk.js",
+    "static/js/3.5ead54eb.chunk.js.map": "/taskreminder/static/js/3.5ead54eb.chunk.js.map",
+    "index.html": "/taskreminder/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/taskreminder/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ce52d2b0.chunk.css.map": "/taskreminder/static/css/main.ce52d2b0.chunk.css.map",
+    "static/js/2.fef5cef8.chunk.js.LICENSE.txt": "/taskreminder/static/js/2.fef5cef8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4997b023.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fef5cef8.chunk.js",
+    "static/css/main.ce52d2b0.chunk.css",
+    "static/js/main.1fd049a7.chunk.js"
+  ]
+}
